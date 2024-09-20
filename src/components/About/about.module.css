@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    margin-top: 120px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 80px;
+    gap: 20px;
+}
+
+.img{
+    display: flex;
+    flex: 1;
+}
+
+.title{
+    font-family: 'Kalnia',serif;
+    font-size: 60px;
+}
+
+.desc{
+    font-family: 'Kalnia',serif;
+    font-size: 25px;
+}
+
+.about{
+    margin-left: 70px;
+    margin-top: 160px;
+    z-index: 1;
+    position: absolute;
+}
+
+.aboutTilt{
+    margin-left: 120px;
+    position: relative;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards4,.cards3,.cards2,.cards1{
+    background-color: #D5AD72;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 140px;
+    padding-top: 10px;
+    font-family: 'Kalnia',serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards4desc,.cards3desc,.cards2desc,.cards1desc{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.card2Img,.card1Img{
+    margin-top: 20px;
+    margin-left: -1300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.card2Img{
+    margin-top: 5px;
+    margin-left: -500px;
+}
+
+.cards2title{
+    margin-top: 40px;
+}
+
+.card3Img{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -160px;
+}
+
+.cards4{
+    width: 320px;
+}
+
