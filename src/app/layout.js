@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import About from "@/components/About/About";
 import Kj from "@/components/kj/Kj";
+import Events from "@/components/MainEvents/Events";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
           <Navbar/>
           <About/>
           <Kj/>
+          <Events/>
           {children}
         </div>
       </body>

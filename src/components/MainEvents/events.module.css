@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+
+.container{
+    margin-top: 80px;
+    
+}
+
+.title{
+    font-family: 'Kalnia', serif;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.events{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 220px;
+    gap: 40px;
+}
+
+.img{
+    display: flex;
+    flex: 1;
+}
+
+
+.event{
+    width: 576px;
+    height: 138px;
+    background-color: #D5AD72;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.title2{
+    font-family: 'Kalnia',serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+}
+
+.img2{
+    display: flex;
+    flex: 0.1;
+}
+
+.desc{
+    font-family: 'Kalnia',serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
